@@ -1,0 +1,45 @@
+.wrapper {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  box-shadow: 0 0 10px 1px grey;
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+.wrapper ul {
+  list-style: none;
+  font-size: 20px;
+  margin: 0;
+}
+
+.wrapper .logo {
+  color: white;
+  text-decoration: none;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.wrapper .navList {
+  display: flex;
+}
+
+.navListWrap {
+  padding: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  border-radius: 15px;
+}
+
+.navListWrap:hover {
+  background-color: #ffffff54;
+}

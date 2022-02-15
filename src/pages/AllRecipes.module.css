@@ -1,0 +1,33 @@
+.main {
+  padding: 0 20%;
+  overflow: auto;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.main .card {
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.main .card .label {
+  font-weight: 600;
+}
+
+.deleteWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 0 20px;
+}
