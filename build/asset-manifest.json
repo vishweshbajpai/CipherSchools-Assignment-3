@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vishweshbajpai.github.io/CipherSchools-Assignment-3/static/css/main.ff6f9f96.css",
+    "main.js": "/vishweshbajpai.github.io/CipherSchools-Assignment-3/static/js/main.97f96d9f.js",
+    "static/js/787.b13fdd03.chunk.js": "/vishweshbajpai.github.io/CipherSchools-Assignment-3/static/js/787.b13fdd03.chunk.js",
+    "index.html": "/vishweshbajpai.github.io/CipherSchools-Assignment-3/index.html",
+    "main.ff6f9f96.css.map": "/vishweshbajpai.github.io/CipherSchools-Assignment-3/static/css/main.ff6f9f96.css.map",
+    "main.97f96d9f.js.map": "/vishweshbajpai.github.io/CipherSchools-Assignment-3/static/js/main.97f96d9f.js.map",
+    "787.b13fdd03.chunk.js.map": "/vishweshbajpai.github.io/CipherSchools-Assignment-3/static/js/787.b13fdd03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff6f9f96.css",
+    "static/js/main.97f96d9f.js"
+  ]
+}
