@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  height: 100%;
+  background-color: #f6f6f6;
+}
+
+.main h1 {
+  margin: auto;
+  color: red;
+}

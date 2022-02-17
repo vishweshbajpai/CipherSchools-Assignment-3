@@ -34,16 +34,12 @@ const Login = () => {
   };
 
   useEffect(() => {
-    console.log("effect running");
+    console.log(recipeCxt.isLoggedIn, "effect running");
     if (isValidEmail && isValidPassword) {
       recipeCxt.setIsLoggedIn();
-      navigate("/");
+      navigate("/CipherSchools-Assignment-3/landing-page");
     }
   }, [isValidEmail, isValidPassword, recipeCxt, navigate]);
-
-  // if (recipeCxt.isLoggedIn) {
-
-  // }
 
   return (
     <div className={classes.main}>

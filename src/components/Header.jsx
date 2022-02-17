@@ -12,25 +12,37 @@ const Header = () => {
   return (
     <>
       <div className={classes["wrapper"]}>
-        <Link to={"/"} className={classes.logo}>
+        <Link
+          to={"/CipherSchools-Assignment-3/landing-page"}
+          className={classes.logo}
+        >
           <h1>Recipes</h1>
         </Link>
         <ul className={classes.navList}>
           {!recipeCxt.isLoggedIn && (
-            <Link to={"login"} className={classes.navListWrap}>
+            <Link
+              to={"/CipherSchools-Assignment-3"}
+              className={classes.navListWrap}
+            >
               <li>Login</li>
             </Link>
           )}
           {recipeCxt.isLoggedIn && (
             <>
-              <Link to={"all-recipes"} className={classes.navListWrap}>
+              <Link
+                to={"/CipherSchools-Assignment-3/all-recipes"}
+                className={classes.navListWrap}
+              >
                 <li>All Recipes</li>
               </Link>
-              <Link to={"add-recipe"} className={classes.navListWrap}>
+              <Link
+                to={"/CipherSchools-Assignment-3/add-recipe"}
+                className={classes.navListWrap}
+              >
                 <li>Add Recipe</li>
               </Link>
               <Link
-                to={"/"}
+                to={"/CipherSchools-Assignment-3"}
                 className={classes.navListWrap}
                 onClick={logoutHandler}
               >

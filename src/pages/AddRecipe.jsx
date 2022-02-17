@@ -48,7 +48,7 @@ const AddRecipe = () => {
         body: bodyVal,
         date: dateVal,
       });
-      navigate("/all-recipes");
+      navigate("/CipherSchools-Assignment-3/all-recipes");
     }
   };
   return (
